@@ -1,4 +1,4 @@
-namespace TodoApp.Configuration
+namespace FileShareInfoApp.Configuration
 {
     public class JwtConfig
     {

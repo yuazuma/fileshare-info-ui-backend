@@ -1,4 +1,4 @@
-namespace TodoApp.Models
+namespace FileShareInfoApp.Models
 {
     public class ItemData
     {

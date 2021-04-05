@@ -14,14 +14,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using TodoApp.Configuration;
-using TodoApp.Data;
+using FileShareInfoApp.Configuration;
+using FileShareInfoApp.Data;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.AspNetCore.Authorization;
 
-namespace TodoApp
+namespace FileShareInfoApp
 {
     public class Startup
     {
@@ -72,7 +72,7 @@ namespace TodoApp
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoApp", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FileShareInfoApp", Version = "v1" });
                 c.AddSecurityDefinition("BearerAuth", new OpenApiSecurityScheme
                 {
                     Type = SecuritySchemeType.Http,
@@ -99,7 +99,7 @@ namespace TodoApp
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoApp v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FileShareInfoApp v1"));
             }
 
             app.UseHttpsRedirection();

@@ -10,13 +10,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using TodoApp.Configuration;
-using TodoApp.Data;
-using TodoApp.Models;
-using TodoApp.Models.DTOs.Requests;
-using TodoApp.Models.DTOs.Responses;
+using FileShareInfoApp.Configuration;
+using FileShareInfoApp.Data;
+using FileShareInfoApp.Models;
+using FileShareInfoApp.Models.DTOs.Requests;
+using FileShareInfoApp.Models.DTOs.Responses;
 
-namespace TodoApp.Controllers
+namespace FileShareInfoApp.Controllers
 {
     [Route("api/[controller]")] // api/authManagement
     [ApiController]

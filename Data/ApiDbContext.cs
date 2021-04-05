@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TodoApp.Models;
+using FileShareInfoApp.Models;
 
-namespace TodoApp.Data
+namespace FileShareInfoApp.Data
 {
     public class ApiDbContext : IdentityDbContext
     {

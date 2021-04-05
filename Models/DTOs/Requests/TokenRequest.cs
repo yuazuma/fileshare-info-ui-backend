@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TodoApp.Models.DTOs.Requests
+namespace FileShareInfoApp.Models.DTOs.Requests
 {
     public class TokenRequest
     {

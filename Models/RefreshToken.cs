@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
-namespace TodoApp.Models
+namespace FileShareInfoApp.Models
 {
     public class RefreshToken
     {

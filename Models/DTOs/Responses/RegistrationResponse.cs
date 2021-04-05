@@ -1,6 +1,6 @@
-using TodoApp.Configuration;
+using FileShareInfoApp.Configuration;
 
-namespace TodoApp.Models.DTOs.Responses
+namespace FileShareInfoApp.Models.DTOs.Responses
 {
     public class RegistrationResponse : AuthResult
     {

@@ -3,19 +3,19 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TodoApp.Data;
-using TodoApp.Models;
+using FileShareInfoApp.Data;
+using FileShareInfoApp.Models;
 
-namespace TodoApp.Controllers
+namespace FileShareInfoApp.Controllers
 {
     [Route("api/[controller]")] // api/todo
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-    public class TodoController : ControllerBase
+    public class ItemController : ControllerBase
     {
         private readonly ApiDbContext _context;
 
-        public TodoController(ApiDbContext context)
+        public ItemController(ApiDbContext context)
         {   
             _context = context;
         }

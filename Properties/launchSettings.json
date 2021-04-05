@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TodoApp": {
+    "FileShareInfoApp": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

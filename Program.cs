@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 // This is a test
-namespace TodoApp
+namespace FileShareInfoApp
 {
     public class Program
     {
