@@ -90,11 +90,6 @@ namespace FileShareInfoApp
             {
                 options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             });
-
-            services.AddHttpsRedirection(options =>
-            {
-                options.HttpsPort = 8091;
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

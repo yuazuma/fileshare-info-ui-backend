@@ -20,7 +20,7 @@ namespace FileShareInfoApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://*:8090");
+                    webBuilder.UseUrls("https://*:8090");
                     webBuilder.UseStartup<Startup>();
                 });
     }
