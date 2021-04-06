@@ -8,7 +8,7 @@ using FileShareInfoApp.Models;
 
 namespace FileShareInfoApp.Controllers
 {
-    [Route("api/[controller]")] // api/todo
+    [Route("api/[controller]")] // api/item
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class ItemController : ControllerBase
